@@ -24,14 +24,9 @@ $(call inherit-product, device/oneplus/dumpling/device.mk)
 # Inherit some common DerpFest stuff.
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
-# Gapps
-TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
-IS_PHONE := true
-TARGET_MINIMAL_APPS := false
-TARGET_INCLUDE_STOCK_ARCORE := true
 
-PRODUCT_NAME := derp_dumpling
+PRODUCT_NAME := aosip_dumpling
 PRODUCT_DEVICE := dumpling
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -50,6 +45,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.021/4565141:user/release-keys
 
 TARGET_VENDOR := oneplus
-
-# Official-ify
-DERP_BUILDTYPE := CI

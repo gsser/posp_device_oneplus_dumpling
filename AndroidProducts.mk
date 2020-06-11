@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_dumpling.mk
+    $(LOCAL_DIR)/aosip_dumpling.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_dumpling-user \
-    derp_dumpling-userdebug \
-    derp_dumpling-eng
+    aosip_dumpling-user \
+    aosip_dumpling-userdebug \
+    aosip_dumpling-eng
