@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_dumpling.mk
+    $(LOCAL_DIR)/potato_dumpling.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosip_dumpling-user \
-    aosip_dumpling-userdebug \
-    aosip_dumpling-eng
+    potato_dumpling-user \
+    potato_dumpling-userdebug \
+    potato_dumpling-eng
